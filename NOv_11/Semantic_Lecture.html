@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Internal CSS using STYLE Tag -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title> Semantic</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: beige; 
+            height: 70px;
+            border: 5px solid navy;
+        }
+
+        nav {
+            background-color: burlywood;
+            height: 50px;
+            border: 5px solid brown;
+        }
+
+        article {
+            background-color: cornflowerblue;
+            width: 70%;
+            float: left;
+            height: 1200px;
+            border: 1px solid black;
+        }
+
+        aside {
+            background-color:aqua;
+            width: 30%;
+            float: left;
+            height: 1200px;
+            border: 1px solid black;
+        }
+
+        footer {
+            background-color:rgb(113, 236, 205);
+            height: 100px;
+            clear: both;
+        }
+
+        img {
+            width: 500px; 
+            height: 400px;
+        }
+
+        
+
+    </style>
+
+</head>
+<body>
+    
+    <header>
+        <h1  text-align="a" ><u>Semantic HTML</u></h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>        
+        <a href="#">About Us</a>
+    </nav>
+
+    <main>
+        <article>
+            <h2>Title of my blog</h2>
+                <section>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, itaque? Voluptates ad voluptate rerum cumque ea nam distinctio, itaque earum odit debitis eius iure exercitationem, enim ratione id unde non.</p>
+                </section>
+
+                <!-- Sample Image -->
+                <section>
+                    <figure>
+                        <img src="./Sample Video and Audio/Cool Forest.jpg" alt="Picture of an Eagle" />
+                        <figcaption>Creepy Forest</figcaption>
+                    </figure>
+                </section>
+                <br /><br />
+
+                <!-- Sample Video -->
+                <section>
+                    <h2><strong><u> Video Sample</u></strong></h2>
+                    <video width="50%" controls autoplay muted loop>
+                        <source src="./Sample Video and Audio/Video.mp4">
+                        Your browser does not support this video.
+                    </video>
+                </section>
+                <br /><br />
+
+                <!-- Audio Sample -->
+                <section>
+                    <h2><strong><u>Audio Sample</u></strong></h2>
+                    <audio controls>
+                        <source src="./Sample Video and Audio/Audio.mp3"/>
+                    </audio>
+                </section>
+
+
+        </article>
+
+        <aside>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores tempore earum fugiat neque cum. Blanditiis delectus impedit facilis atque ipsam repudiandae sint odio earum molestiae. Eveniet amet mollitia velit officiis!
+            </p>
+        </aside>        
+    </main>
+    <footer>
+        <p>Email me at maartiaga1@yahoo.com</p>
+        <p>Copyright 2022</p>
+    </footer>
+
+
+</body>
+</html>

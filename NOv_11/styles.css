@@ -1,0 +1,36 @@
+#div1 {
+    width: 200px;
+    height: 200px;
+    background-image: url(./Eagle.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%ppy ;
+    background-position: center;
+}
+
+#bkgImage {
+    background-image: url(./Office.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.div2 {
+    width: 300px;
+    height: 300px;
+    border: 1px dashed burlywood;
+}
+
+.div3 {
+    background-color:blue ;
+}
+
+.div2.div3 {
+    color:black;
+}
+
+.div4 {
+    width: 400px;
+    height: 400px;
+    border: 2px double burlywood;
+    background-color: darkblue;
+}
