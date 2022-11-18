@@ -22,6 +22,7 @@ article {
     width: 60%;
     padding: 15px;
     background-color: cornsilk;
+    
 }
 
 .container {
@@ -69,10 +70,13 @@ input[type="submit"]:hover {
     cursor: pointer;
 }
 
+
+/* 
 form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 20px;
     height: 100%;
-}
+}       
+*/

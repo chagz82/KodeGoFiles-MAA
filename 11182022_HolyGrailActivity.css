@@ -14,7 +14,7 @@ footer {
 main {
     height: 80vh;
     display: flex;
-    background-color: bisque;
+    /* background-color: bisque; */
 }   
 
 aside,
@@ -30,21 +30,24 @@ aside {
 
 article {
     width: 60%;
+    background-color: bisque;
 }
 
+.container {
+    /* height: 150px; */
+    display: flex;
+    column-gap: 20px
+    
+}
+
+ /*  
 .nameDirection {
     padding: 2%;
     border: 20px solid white;
     /* border-bottom-width: 100px;  */
 }
+*/
 
-.container {
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    column-gap: 20px
-    
-}
 
 .flex-item.left {
     width: 70%;
@@ -52,7 +55,8 @@ article {
 
 .dataField {
     display: flex;
-    padding: 10px;
+margin-bottom: 20px;
+    /* padding: 10px; */
 }
 
 .dataField label {
@@ -60,26 +64,23 @@ article {
 } 
 
 .dataField input {
+    flex: 2;
     padding: 5px;
 }
-
+/* 
 .flex-item.left input{
     flex: 1;
 }
-
+ */
  
 .flex-item.right {
     width: 30%;
 }
-
-.vehicle [type=radio] {
-    /* display: flex; */
-    
-}
-  
+ 
 .btn-container {
     text-align: center;
     justify-content: center;
+    align-items: center;
     margin-top: 50px;
 }
 
@@ -97,12 +98,11 @@ input[type=submit]:hover {
 
 form {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+    column-gap: 50px;
     padding: 20px;
     height: 100%;
-    justify-content: space-between;
+    border: 25px solid white;
+    
 }
 
-.flex-item.left.dataField {
-    flex: 3;
-}
