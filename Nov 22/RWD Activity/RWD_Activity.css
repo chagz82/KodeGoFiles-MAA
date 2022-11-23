@@ -70,3 +70,33 @@ a:visited {
         column-gap: 10px;
     }    
 }
+
+.topic div {
+    padding: 10px;
+}
+
+@media (min-width:1024px) {
+    .topic {
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        column-gap: 10px;
+    }    
+}
+
+.topic div {
+    padding: 10px;
+}
+
+@media (min-width:1440px) {
+    .topic {
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        column-gap: 10px;
+    }    
+}
+
+.topic div {
+    padding: 10px;
+}
