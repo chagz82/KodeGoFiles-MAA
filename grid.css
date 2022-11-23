@@ -7,8 +7,8 @@
 
 .grid {
     display: grid;
-    grid-template-rows: repeat(3, 2fr);
-    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
 
@@ -51,8 +51,8 @@
 /* Responsive Style */
 @media (min-width: 600px) {
     .grid-form {
-        grid-template-columns: 200px 1fr;
-        gap: 5px
+         grid-template-columns: 200px 1fr;  
+        gap: 10px
     }
 
     .grid-form label {
