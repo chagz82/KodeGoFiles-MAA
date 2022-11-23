@@ -37,12 +37,7 @@ a:visited {
 }
 
 .topic {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    border: 3px solid black;
-    padding: 30px;
-    column-gap: 30px;
-    
+    padding: 10px;
 }
 
 .topic div {
@@ -50,6 +45,28 @@ a:visited {
 }
 
 
-@media screen and (max-width:475px) {
-    
+@media (min-width:425px) {
+ 
+    .topic {
+        padding: 10px;
+        column-gap: 30px;
+        flex-direction: column;
+    }    
+
+    .topic div {
+        padding: 10px;
+    }
+
+    .menu {
+        gap: 20px;
+    }
+}
+
+@media (min-width:768px) {
+    .topic {
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        column-gap: 10px;
+    }    
 }
