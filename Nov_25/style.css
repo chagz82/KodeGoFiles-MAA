@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+.gradient {
+    border: 3px solid aqua;
+    /* background: rgb(9,121,84);
+    background: linear-gradient(236deg, rgba(9,121,84,1) 35%, rgba(14,106,91,0.0760679271708683) 35%, rgba(0,212,255,1) 100%); */
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    background: rgb(245,244,244);
+    background: linear-gradient(180deg, rgba(245,244,244,1) 50%, rgba(13,132,133,1) 100%);
+}
+
+.container  {
+    width: 60%;
+    height: 80%;
+    border: 2px solid black;
+    background-color: #fff;
+}
+
+.left,
+.right {
+    width: 50%;
+    padding: 30px;
+}
+
+.left {
+    background-image: url(https://cdn.pixabay.com/photo/2014/11/05/09/03/owl-517497__340.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
