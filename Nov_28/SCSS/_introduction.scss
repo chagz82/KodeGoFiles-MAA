@@ -1,0 +1,3 @@
+.message {
+    @include font-style($desktop-font,$imapct, 500, $secondaryBlue);
+}
