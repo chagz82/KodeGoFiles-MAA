@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 100px 1fr 100px 1fr;
+    grid-template-columns: 20% 1fr 20% 1fr;
+    gap: 20px;
+}
+
+.contacts {
+    background-color: rgb(3, 26, 69);
+    height: 80vh;
+    padding-left: 10px;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.grid-form {
+    width: 300px;
+    display: grid;
+    padding-top: 20px;
+    /* grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr); */
+}
+
+.message input[type=text] {
+    height: 60px;
+    grid-template-rows: repeat(2, 1fr);
+    
+}
+
+.grid-form input[type="submit"] {
+    border: 0;
+    width: 200;
+    background-color:lightgray;
+    margin-top: 10px;
+}
