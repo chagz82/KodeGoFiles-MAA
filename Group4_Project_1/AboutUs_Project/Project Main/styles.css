@@ -8,6 +8,8 @@
 /* ---------------------------------------------------------- */
 /*--------------------------Nav Bar-------------------------- */
 /* ---------------------------------------------------------- */
+
+
 .navbar {
     display: flex;
     justify-content: right;
@@ -696,6 +698,7 @@ form input, form textarea{
     margin: 5px 0;
     background-image:none;
     /* background-color: #9aefee;} */
+}
 
 .login_form input{
     height: 40px;
@@ -704,11 +707,10 @@ form input, form textarea{
     font-size: 18px;
     outline: none;
     border: 1px solid navy;
-
 }
+
 .login_form .font2{
     margin-top: 30px;
-
 }
 
 .login_form button{
