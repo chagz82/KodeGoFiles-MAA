@@ -1,24 +1,128 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} 
+}
 
-.logo-aboutUs {
+.navbar{
+    display: flex;
+    justify-content:right;
+    align-items:right;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: red;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+
+#home{
     display: flex;
     flex-direction: column;
+    background-color: rgba(48, 48, 43, 0.5);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url("./krch.jpg")no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+
+}
+
+.headings{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 50px;
+   
+}
+
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: red;
+    outline: none;
+    transition: .6s ease;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: olive;
+    color: rgb(228, 25, 25);
+    box-shadow: 0 0 5px blue, 0 0 15px white;
+    font-weight: bold;
+}
+
+
+
+
+
+/** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.logo-aboutUs {
+    /* display: flex; */
+    /* flex-direction: column; */
 }
 
 .logo {
     display: flex;
-    width: 500px;
+    /* width: 500px; */
     align-self: center;
-    height: 400px;
+    /* height: 400px; */
 }
 
 .aboutUs {
     margin: 0 0 0 20px;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 50px;
 }
 
 .team {
@@ -28,11 +132,13 @@
 
 a {
     font-weight: bold;
-    
+
 }
 
 p {
     padding-top: 10px;
+    color: olive;
+
 }
 
 .teamMember {
@@ -48,6 +154,7 @@ p {
 .details {
     margin-top: 30px;
     padding-left: 20px;
+    padding-right: 50px;
 }
 
 img {
@@ -59,44 +166,371 @@ img {
 
 
 
-@media screen and (max-with: 425px) {
-    .teamMember {
-        /* display: flex; */
-        padding-left: 50px;
+
+ /*Sherwin*/
+/* * {
+    box-sizing: border-box;
+    text-transform: capitalize;
+
+}*/
+.hnav {
+    background-color: aqua;
+    height: 100px
+        /* container home 1 */
+}
+
+.hcontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    background-image: url(https://d1rytvr7gmk1sx.cloudfront.net/wp-content/uploads/2022/05/Trust-and-Security-Officer.jpeg?x73649);
+    opacity: 20px;
+    background-size:cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+    background-image {
+        width: 50px;
     }
     
+
+.hbox1 {
+    height: 100px;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding: 40px;
+    font-size: 40px;
+    font-weight: bold;
 }
 
-@media screen and (min-with: 768px) {
+.hbox2 {
+    height: 100px;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 30px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.overlay {
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    padding-top: 70px;
+    background: rgb(19, 18, 18);
+    background: linear-gradient(180deg, rgba(19, 18, 18, 0.37048322747067575) 95%, rgba(241, 233, 233, 0.7346288857339811) 100%, rgba(241, 233, 233, 0.47692580450148814) 100%);
+
+
+
+}
+
+
+
+
+/* container home 2 */
+
+.hcontainer2 {
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
 
-    .container {
-       width: 1600px;
-    }    
+    flex-wrap: wrap;
 
+    height: 500px;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 20px
+    ;
+}
 
+.hcontainer2 .hboxa {
+    height: 100%;
+    background-color: beige;
+    border: solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 
 
 
-@media screen and (min-with: 1024px) {
+/* BOX1 */
 
-    .container {
-        width: 1600px;
-     }    
- 
+.hcontainer2 .hboxa .hbox {
+    height: 70%;
+    background-image: url(https://www.cbe.ie/wp-content/uploads/2019/02/software-development-icon-png-7.png);
+    opacity: 0.60;
+
+}
+
+.hcontainer2 .hboxa p {
+    height: 30%;
+    padding: 5px;
+    text-align: center;
+    font-size: px;
+    font-weight: bolder;
+
+
+}
+
+/* box 2 */
+
+.hcontainer2 .hboxb {
+
+    width: 23%;
+    height: 100%;
+    background-color: beige;
+    border: solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.hcontainer2 .hboxb .hbox {
+    height: 70%;
+    background-image: url(./image/web-developing-1570270-1330856.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.60;
+}
+
+.hcontainer2 .hboxb p {
+    height: 30%;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 25px;
+
+
+}
+
+/* box3 */
+
+.hcontainer2 .hboxc {
+    width: 23%;
+    height: 100%;
+    background-color: beige;
+    border: solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.hcontainer2 .hboxc .hbox {
+    height: 70%;
+    background-image: url(./image/mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.50;
+}
+
+.hcontainer2 .hboxc p {
+    height: 30%;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 25px;
+    padding: 0px , 5px;
+
+
+}
+
+/* /box 4 */
+
+
+.hcontainer2 .hboxd {
+    width: 23%;
+    height: 100%;
+    background-color: beige;
+    border: solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+.hcontainer2 .hboxd .hbox {
+    height: 70%;
+    background-image: url(https://static.thenounproject.com/png/3358309-200.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.50;
+}
+
+.hcontainer2 .hboxd p {
+    height: 30%;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 25px;
+
 
 }
 
 
-@media screen and (min-with: 1440px) {
+/* H1             --            H1 */
 
-    .container {
-        width: 1600px;
-     }    
+
+    
+.hcontainer2 .box {
+    width: 500px;
+    background-color: green;
+    justify-content: center;
+}
+h1 {
+    width: 100%;
+    height: 200px;
+    margin-top: 200px;
+    text-align: center;
+    display: block;
+}
+
+/*Chad*/
+/** {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }*/
+  section {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .column {
+    width: 100%;
+    padding: 0 1em 1em 1em;
+    text-align: center;
+  }
+  .card {
+    width: 100%;
+    height: 100%;
+    padding: 2em 1.5em;
+    background: linear-gradient(#ffffff 50%, #2c7bfe 50%);
+  
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1f194c;
+    margin: 1em 0;
+  }
+  p {
+    color: #575a7b;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+  }
+  ul {
+    list-style: none;
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    color: white;
+  }
+  .icon-wrapper {
+    background-color: #2c7bfe;
+    position: relative;
+    margin: auto;
+    font-size: 30px;
+    height: 2.5em;
+    width: 2.5em;
+    color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
+  }
+  .card:hover {
+    background-position: 0 100%;
+  }
+  .card:hover .icon-wrapper {
+    background-color: #ffffff;
+    color: #2c7bfe;
+  }
+  .card:hover h3 {
+    color: #ffffff;
+  }
+  .card:hover p {
+    color: #f0f0f0;
+  }
  
+  /Contact us/
+  .column{
+    width: 100%;
+    height: 100vh;
+    background-image: url("contact.jpg"); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+form{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+
+}
+
+form h3{
+    color: blue;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+}
+
+form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background-color: antiquewhite;
+    font-size: 16px;
+}
+
+      
+
+@media (min-width:425px) {
+    display: flex;
+    flex-wrap: wrap;
 }
