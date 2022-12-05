@@ -670,3 +670,77 @@ form input, form textarea{
     border: 1px solid #EF9A9A;
     display: none;
 }
+
+
+/* ------------------------------------------------------------------ */
+/*---------------------------------Sign Up-----------------------------*/
+/* ------------------------------------------------------------------ */
+.container_signup {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+
+/* .login_form{
+    padding: 20px 40px;
+} */
+
+.login_form{
+    display: flex;
+    align-self: center;
+    padding-left: 125px;
+    font-size: 18px;
+    color: black;
+    margin: 5px 0;
+    background-image:none;
+    /* background-color: #9aefee;} */
+
+.login_form input{
+    height: 40px;
+    width: 350px;
+    padding: 0 5px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid navy;
+
+}
+.login_form .font2{
+    margin-top: 30px;
+
+}
+
+.login_form button{
+    margin: 45px 0 30px 0;
+    height: 45px;
+    width: 200px;
+    align-self: center;
+    font-size: 20px;
+    color: olive;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    background: rgb(43, 162, 226);
+    border-radius: 3px;
+    border: 1px solid blue;
+    transition: .10s;
+}
+
+.login_form button:hover{
+    background: #151c6a;
+}
+
+.login_form #email_error,
+.login_form #pass_error{
+    margin-top: 5px;
+    width: 345px;
+    font-size: 18px;
+    color: #c62828;
+    background: rgba(255,0,0,0.1);
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: 1px solid #EF9A9A;
+    display: none;
+}
