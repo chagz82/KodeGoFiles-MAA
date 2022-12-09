@@ -4,12 +4,19 @@
     box-sizing: border-box;
     /* text-transform: capitalize; */
 }
+/* ---------------------------------------------------------- */
+/*--------------------------Language Selector-------------------------- */
+/* ---------------------------------------------------------- */
+
+
+
+
+
+
 
 /* ---------------------------------------------------------- */
 /*--------------------------Nav Bar-------------------------- */
 /* ---------------------------------------------------------- */
-
-
 .navbar {
     display: flex;
     justify-content: right;
@@ -63,8 +70,6 @@
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
-    /* width: max-content; */
-    /* height: fit-content; */
     
 }
 
@@ -334,6 +339,7 @@ section {
     width: 100%;
     padding: 0 1em 1em 1em;
     text-align: center;
+    flex: 0 50%;
   }
   .card {
     width: 100%;
