@@ -5,9 +5,13 @@
 // Enter the operator ( +, *, -, /), based on the input, compute the two numbers.
 // Display the result.
 
-let num1 = parseInt (prompt("Enter first number"));
-let num2 = parseInt (prompt("Enter second number"));
+let num1 = parseFloat (prompt("Enter first number"));
+let num2 = parseFloat (prompt("Enter second number"));
 let operator = prompt("Enter operation");
+
+
+
+
 
 if (operator === "+" ) {
     const add = (num1, num2) => num1 + num2
