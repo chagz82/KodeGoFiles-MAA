@@ -15,15 +15,15 @@ if (operator === "+" ) {
     alert ("Answer = " + answer);
 }
 
-else if (operator === "*" ) {
-    const multiply = (num1, num2) => num1 * num2
-    const answer = multiply(num1, num2);
-    alert ("Answer = " + answer);
-}
-
 else if (operator === "-" ) {
     const subtract = (num1, num2) => num1 - num2
     const answer = subtract(num1, num2);
+    alert ("Answer = " + answer);
+}
+
+else if (operator === "*" ) {
+    const multiply = (num1, num2) => num1 * num2
+    const answer = multiply(num1, num2);
     alert ("Answer = " + answer);
 }
 
