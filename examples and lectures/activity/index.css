@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header,
+footer {
+    height: 15vh;
+    background-color: aqua;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    height: 70vh;
+}
+
+nav,
+aside   {
+    width: 20%;
+    padding: 10px;
+}
+
+aside   {
+    background-color:blanchedalmond;
+}
+
+nav     {
+    background-color: cadetblue;
+}
+
+article     {
+    width: 60%;
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin: 20px 20px 80px 20px;
+}
+
+
+.container  {
+    /* background-color:blanchedalmond; */
+    display: flex;
+    width: 100%;
+}
+
+.flexLeft,
+.flexright   {
+    width: 100%;   
+}
+
+.flexRight  {
+    width: 50%;    
+}
+
+.flexRight .flexRight_Extras   {
+    padding-top: 50px;   
+}
+
+.flexLeft  {
+    flex: 2;
+}
+
+.flexLeft .field {
+    flex: 2;
+    padding: 10px;
+}
+
+
+.sUbmitButton   {
+    padding-top: 10%;
+    text-align: center;   
+}
+
+input[type="submit"]:hover   {
+    cursor:pointer;  
+    background-color:gray;
+}

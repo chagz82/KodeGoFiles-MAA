@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+    <header>Header</header>
+
+    <main>
+        <article>
+            <form>
+                <Div class="container">
+                    <div class="flexLeft">
+                        <div class="field">
+                            <label for="name">Name</label>
+                            <input type="text" id="name">
+                        </div>
+                        <div class="field">
+                            <label for="phone">Phone</label>
+                            <input type="text" id="phone">
+                        </div>
+                        <div class="field">
+                            <label for="email">Email</label>
+                            <input type="text" id="phone">
+                        </div>
+                        <div class="field">
+                            <label for="dateTme">Pickup Date/Time</label>
+                            <input type="datetime-local" id="dateTme">
+                        </div>
+                        <div class="field">
+                            <label for="pickUpPlace">Pickup Place</label>
+                            <select name="vehicle" id="vehicle">
+                                <option selected disabled>Select one</option>
+                                <option value="makati">Makati</option>
+                                <option value="alabang">Alabang</option>
+                                <option value="parañaque">Parañaque</option>    
+                            </select>
+                        </div>
+                        <div class="field">
+                            <label for="dropoff">Dropoff Place</label>
+                            <input type="text" id="dropoff">
+                        </div>
+                    </div>
+               
+                    <div class="flexRight">
+                        <div class="flexRight_vehicle">
+                            <p>Which vehicle do you require?</p>
+                            <div class="vehicle">
+                                <input type="radio" name="vehicle" id="van" value="van">    
+                                <label for="van">Van</label>
+                            </div>
+                            <div class="vehicle">
+                                <input type="radio" name="vehicle" id="jeepney" value="jeepney">    
+                                <label for="jeepney">Jeepney</label>
+                            </div>
+                            <div class="vehicle">
+                                <input type="radio" name="vehicle" id="tricycle" value="tricycle">    
+                                <label for="tricycle">Tricycle</label>
+                            </div>
+                        </div>
+
+                        <div class="flexRight_Extras">
+                            <p>Extras</p>
+
+                            <div>
+                                <input type="checkbox" id="babySeat">
+                                <label for="babySeat">Baby Seat</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="wheelChair">
+                                <label for="wheelChair">Wheel Chair Access</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="sTockTip">
+                                <label for="sTockTip">Stock Tip</label>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </Div>
+                
+                <div class="sUbmitButton">
+                    <input type="submit" value="Submit Booking">                
+                </div>
+            </form>
+
+        </article>
+
+        <aside>Aside</aside>
+
+        <Nav>Nav</Nav>
+
+    </main>
+
+    <footer>Footer</footer>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
