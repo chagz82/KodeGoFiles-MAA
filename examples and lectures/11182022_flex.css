@@ -8,6 +8,8 @@ footer {
     background-color: yellowgreen;
     padding: 15px;
 }
+
+
 main {
     height: 80vh;
     display: flex;
@@ -37,6 +39,7 @@ article {
 .flex-item.left {
     width: 70%;
 }
+
 .field {
     display: flex;
     margin-bottom: 5px;
