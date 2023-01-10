@@ -2,7 +2,7 @@ const btnToggle=document.querySelector('#toggle');
 const content=document.querySelector('#content');
 
 btnToggle.addEventListener(
-    "click"
+    "click",
     () => {
         /*
             1. Check the display property of content div
